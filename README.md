@@ -28,11 +28,11 @@ El proyecto esta configurado para arrancar en el puerto 8090.
 3. Get ```http://localhost:8090/api/recursos/search?nombre=Zapatilla```  
 	* recupera un recurso por query parameter nombre
 4. Post  ```http://localhost:8090/api/recursos```
-	* ```Body: { "nombre": "Proyecto", "disponible": false}``` -> crea un recurso
+	* Crea un recurso ```Body: { "nombre": "Proyecto", "disponible": false}``` 
 5. Delete ```http://localhost:8090/api/recursos/2``` 
 	* Borra un recurso por ID
 6.   Put ```http://localhost:8090/api/recursos```
-	*  ```Body: { "id": 2, "nombre": "Proyecto", "disponible": true}``` -> Actualiza un recurso
+	* Actualiza un recurso  ```Body: { "id": 2, "nombre": "Proyecto", "disponible": true}``` 
 
 # Arrancar el proyecto con Maven
 ``` mvn clean spring-boot:run ```
