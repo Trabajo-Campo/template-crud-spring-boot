@@ -4,7 +4,7 @@
 
 # Rest Service - CRUD con Spring-Boot
 
-Este código es un ejemplo simple realizado durante la clase del 04-ABRIL-2022
+Este código es un ejemplo simple realizado durante la clase virtual de Trabajo de Campo de la UNPAZ del [04-ABRIL-2022] (https://youtu.be/GL1d8X-VXuc)
 
 # Tecnologias que usa
 
@@ -30,7 +30,7 @@ Este código es un ejemplo simple realizado durante la clase del 04-ABRIL-2022
 5. Delete ```http://localhost:8090/api/recursos/2``` 
 	* Borra un recurso por ID
 6.   Put ```http://localhost:8090/api/recursos```
-	* ```Body: { "id": 2, "nombre": "Proyecto", "disponible": true}``` -> Actualiza un recurso
+	*  ```Body: { "id": 2, "nombre": "Proyecto", "disponible": true}``` -> Actualiza un recurso
 
 # Arrancar el proyecto con Maven
 ``` mvn clean spring-boot:run ```
