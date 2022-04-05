@@ -4,11 +4,12 @@
 
 # Rest Service - CRUD con Spring-Boot
 
-Este código es un ejemplo simple realizado durante la clase virtual de Trabajo de Campo de la UNPAZ del [04-ABRIL-2022] (https://youtu.be/GL1d8X-VXuc)
+Este código es un ejemplo simple realizado durante la clase virtual de **Trabajo de Campo de la Licenciatura en Gestión de las Tecnologías de la información de la UNPAZ** del [04-ABRIL-2022](https://youtu.be/GL1d8X-VXuc)
 
-# Tecnologias que usa
+# Tecnologías
 
-
+- Spring-boot
+- Maven
 - java 11
 - JPA con Hibernete de ORM provider
 - H2 para la base de datos en memoria
@@ -18,6 +19,7 @@ Este código es un ejemplo simple realizado durante la clase virtual de Trabajo 
 - Configuracion a través de un archivo yml
 
 # Pruebas
+El proyecto esta configurado para arrancar en el puerto 8090.
 
 1. Get ```http://localhost:8090/api/recursos```
 	* recupera todos los recursos
